@@ -8,3 +8,4 @@ if st.button("Generate 12 Words"):
 
     for i, word in enumerate(words[:12], 1):
         st.write(f"{i}- {word}")
+
